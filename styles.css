@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif
+}
+
+.sidebar {
+    width: 25%;
+    height: 100%;
+    background-color: gold;
+}
+
+.sidebar > section > h2 {
+    text-align: center;
+    background-color: dimgray;
+    color: gold;
+    font-weight: lighter;
+}
+
+.sidebar > section > div {
+    margin: 25px;
+}
+
+header {
+    margin-bottom: 70px;;
+}
+
+header > h1 {
+    font-weight: 100;
+    font-size:xx-large;
+    margin-bottom: 10px;
+}
+
+header > h2 {
+    font-weight:600;
+    margin: 0px;
+}
+p, li {
+    font-size:small;
+}
+
+.date {
+    margin-right: 70px;
+    width: 100px;
+}
+
+.main {
+    margin: 70px;
+}
+
+.item {
+    display: flex;
+}
+
+h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
