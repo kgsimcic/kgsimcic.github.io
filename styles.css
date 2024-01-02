@@ -1,10 +1,20 @@
 body {
     display: flex;
-    font-family: Arial, sans-serif
+    font-family: Arial, sans-serif;
+    height: 1200px;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
 .sidebar {
-    width: 25%;
+    width: 50%;
     height: 100%;
     background-color: gold;
 }
@@ -16,12 +26,23 @@ body {
     font-weight: lighter;
 }
 
-.sidebar > section > div {
+.contact-info {
+    display: flex;
+    flex-direction: column;
     margin: 25px;
 }
 
+.entry {
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.answer {
+    margin: 0px;
+}
+
 header {
-    margin-bottom: 70px;;
+    margin-bottom: 70px;
 }
 
 header > h1 {
@@ -32,15 +53,18 @@ header > h1 {
 
 header > h2 {
     font-weight:600;
-    margin: 0px;
+    margin: 10px;
 }
-p, li {
+
+p, li, a {
     font-size:small;
 }
 
+.sidebar > section > p {
+    margin: 25px;
+}
 .date {
-    margin-right: 70px;
-    width: 100px;
+    width: 30%;
 }
 
 .main {
@@ -49,6 +73,13 @@ p, li {
 
 .item {
     display: flex;
+    justify-content: left;
+    padding-right: 50px;
+}
+
+.item > div {
+    width: 70%;
+
 }
 
 h5 {
