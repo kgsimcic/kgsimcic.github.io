@@ -1,7 +1,7 @@
 body {
     display: flex;
     font-family: Arial, sans-serif;
-    height: 1200px;
+    height: 1280px;
 }
 
 img {
@@ -32,15 +32,6 @@ img {
     margin: 25px;
 }
 
-.entry {
-    margin-top: 10px;
-    margin-bottom: 2px;
-}
-
-.answer {
-    margin: 0px;
-}
-
 header {
     margin-bottom: 70px;
 }
@@ -58,6 +49,7 @@ header > h2 {
 
 p, li, a {
     font-size:small;
+    margin: 5px;
 }
 
 .sidebar > section > p {
@@ -71,10 +63,17 @@ p, li, a {
     margin: 70px;
 }
 
-.item {
+.item, .ref {
     display: flex;
     justify-content: left;
     padding-right: 50px;
+}
+
+.ref {
+    width: 50%;
+}
+.refs {
+    display: flex;
 }
 
 .item > div {
